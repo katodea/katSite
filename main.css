@@ -112,8 +112,25 @@
   html {
     background-color: var(--yellow);
   }
+  nav {
+    width: 100vw;
+    height: 150px;
+  }
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: flex-end;
+  }
+  .button {
+    background-color: var(--pink);
+    border: solid;
+    border-radius: 50px;
+    border-width: 1px;
+    color: #fff;
+  }
   .hero {
-    background-image: url(nameOutline.svg) center;
+    background-image: url(/roundName.svg);
   }
 
 
